@@ -227,7 +227,16 @@ footer > a{
     }
     #headshot{
         margin-top: 20px;
-        margin-left: -11px;
-        width: 300px;
+        margin-left: 0px;
+        width: 320px;
+    }
+
+    #headshot2{
+        width: 150px;
+        height: 215px;
+    }
+    .project{
+        display: grid;
+        grid-template-columns: 0.5fr 0.75fr;
     }
 }

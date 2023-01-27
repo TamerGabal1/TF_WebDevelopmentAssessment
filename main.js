@@ -1,3 +1,5 @@
+//tried adding a top button, but for some reason it won't appear
+
 let topButton = document.getElementById('topButton');
 
 topButton.onclick = () =>{
