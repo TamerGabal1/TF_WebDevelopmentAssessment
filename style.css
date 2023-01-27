@@ -176,7 +176,7 @@ footer > a{
 
 #projects{
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .name{
@@ -238,5 +238,12 @@ footer > a{
     .project{
         display: grid;
         grid-template-columns: 0.5fr 0.75fr;
+        gap: 15px;
+        margin-left: -20px;
+    }
+    .name{
+        display: flex;
+        flex-direction: row;
+        margin-left: -10px;
     }
 }
